@@ -25,3 +25,14 @@ public class ArrayExamples {
   }
 
 }
+
+
+// Increment each number in the 'numbers' array by one
+//     static int[] incrementArray(int[] numbers) {
+//         int[] incrementedArray = new int[numbers.length];
+
+//         for (int i = 0; i < numbers.length; i++){
+//            incrementedArray[i] = numbers[i] + 1;
+//         }
+//         return incrementedArray;
+//     }
