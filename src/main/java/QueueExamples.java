@@ -19,3 +19,12 @@ public class QueueExamples {
   }
 
 }
+
+// Return the same ArrayDeque given as input, but with the first 3 numbers removed from the front.
+    static Queue<Integer> shortenQueue(Queue<Integer> queue) {
+        // Your code goes here.
+        queue.poll();
+        queue.poll();
+        queue.poll();
+        return queue;
+    }
