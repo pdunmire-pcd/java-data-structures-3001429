@@ -15,7 +15,12 @@ public class StackExamples {
     System.out.println(stack);
     stack.poll();
     System.out.println(stack);
+  }
 
+  static Deque<Integer> updateStack(Deque<Integer> stack, int newTop) {
+    stack.pop();
+    stack.push(newTop);
+    return stack;
   }
 
 }
