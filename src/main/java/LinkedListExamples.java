@@ -23,4 +23,10 @@ public class LinkedListExamples {
     
   }
 
+  static LinkedList<String> updateLinkedList(
+LinkedList<String> words, String newWord, int index) {
+	words.add(index, newWord);
+	return words;
+}
+
 }
